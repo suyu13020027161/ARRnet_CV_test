@@ -17,3 +17,7 @@ Download the **CV_test_dataset_50** dataset to your local machine, modify the im
 ```
 Python3 multiple_img_assess.py
 ```
+If you record **.bag** files using a RealSense depth camera, you can use *bag_image_capture.py* to automatically capture 50 images and save them as a dataset. Modify the **.bag** file path in the *bag_image_capture.py* source code accordingly, and run:
+```
+Python3 bag_image_capture.py
+```
